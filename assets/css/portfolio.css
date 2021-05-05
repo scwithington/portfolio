@@ -1,0 +1,101 @@
+.collect a {
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+}
+
+.collect a:hover {
+    color: rgb(50, 230, 50);
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.box p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15vh;
+    margin-bottom: -8vh;
+    margin-left: 10vh;
+    color: rgb(238, 238, 238);
+}
+
+.box {
+    padding-top: 20vh;
+    padding-bottom: 48vh;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+}
+
+.img {
+    display: block;
+    width:100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.appear {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.defined {
+    color: white;
+    font-family: Didone Room;
+}
+
+.title {
+    color: white;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.pageTitle {
+    font-family: Georgia;
+    font-size: 8vh;
+    margin-bottom: -3vh;
+    text-decoration: 2px underline;
+    text-underline-offset: 1vh;
+}
+
+.viewBtn {
+    font-size: 14px;
+    color: white;
+    padding: 5%;
+    border: 2px solid white;
+    transition: .5s ease;
+}
+
+.viewBtn:hover {
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+    background: white;
+}
+
+.container:hover .img {
+    filter: brightness(25%);
+}
+
+.container:hover .appear {
+    opacity: 1;
+}
+
+#current {
+    color: rgb(50, 230, 50);;
+}
+
+#projects {
+    padding-top: 10vh;
+    background-color: rgb(238, 238, 238);
+}
+
+#pageLead {
+    background-color: black;
+}
