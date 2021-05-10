@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full Stack Web Developer</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <body>
-    <section>
-        <nav class='row p-4 m-3'>
+    <section id='pageLead'>
+        <nav class='row p-4'>
             <div class='col-sm-3'>
-                <img class='float-left ml-5' src='./img/image.img'>
+                <a class='float-left ml-5' href='./index.html'>
+                    <img class='icon' alt='icon' src='./assets/img/icon.png'>
+                </a>
             </div>
-            <div class='col-sm-6'>
+            <div class='collect col-sm-6'>
                 <div class='text-center'>                
                     <a class='m-4' href='./html/portfolio.html'>PORTFOLIO</a>
                     <a class='m-4' href='./html/about.html'>ABOUT</a>
@@ -21,15 +24,19 @@
                     <a class='m-4' href='./html/blog.html'>BLOG</a>
                 </div>
             </div>
-            <div class='col-sm-3'>
-                <a class='float-right mr-5' href='./html/contact.html'>CONTACT</a>
+            <div class='collect col-sm-3'>
+                <a class='float-right m-4 pr-4' href='./html/contact.html'>CONTACT</a>
             </div>
         </nav>
         <div class='box col-sm-8'>
-            <h1>Full Stack Web</h1>
-            <h1>Developer.</h1>
+            <p>Full Stack Web</p>
+            <p>Developer.</p>
+            <a class='headButton' type='button' href='./html/resume.html'>HIRE ME</a>
+            <a class='headButton' type='button' href='./html/portfolio.html#projects'>PROJECTS</a>
         </div>
-        <button>HIRE ME</button>
     </section>
+    <section>
+    </section>
+    <script src='./assets/js/index.js'></script>
 </body>
 </html>
