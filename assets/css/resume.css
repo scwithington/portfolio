@@ -5,7 +5,7 @@ html, body {
 }
 
 .row {
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 .card-title {
@@ -16,10 +16,12 @@ html, body {
 .list p {
     margin-top: 2vh;
     font-weight: 500;
+    font-size: 3vh;
 }
 
-.list {
-    font-size: 3vh;
+.list li {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.6vh;
 }
 
 .collect {
@@ -55,7 +57,7 @@ html, body {
 
 .box {
     padding-top: 15vh;
-    padding-bottom: 40vh;
+    padding-bottom: 42vh;
 }
 
 .headButton {

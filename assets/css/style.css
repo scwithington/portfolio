@@ -74,3 +74,7 @@ html, body {
 #pageLead.bgd-3 {
     background-image: url('../img/blog.jpg');
 }
+
+#pageLead.bgd-4 {
+    background-image: url('../img/resume.jpg');
+}
