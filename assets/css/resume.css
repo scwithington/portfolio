@@ -4,6 +4,24 @@ html, body {
     overflow-x: hidden;
 }
 
+.container {
+    padding-top: 20vh;
+}
+
+.card-title {
+    font-weight: 100;
+    font-size: 6vh;
+}
+
+.list p {
+    margin-top: 2vh;
+    font-weight: 500;
+}
+
+.list {
+    font-size: 3vh;
+}
+
 .collect {
     margin-top: -2.7vh;
 }

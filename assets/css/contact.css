@@ -61,16 +61,3 @@ html, body {
     background-size: cover;
     background-image: url('../img/resume.jpg');
 }
-
-#pageLead.bgd-1 {
-    transition:background-image 1s ease-in-out;
-    background-image: url('../img/about.jpg');
-}
-
-#pageLead.bgd-2 {
-    background-image: url('../img/portfolio.jpg');
-}
-
-#pageLead.bgd-3 {
-    background-image: url('../img/blog.jpg');
-}
