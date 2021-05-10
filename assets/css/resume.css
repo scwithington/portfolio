@@ -21,7 +21,12 @@ html, body {
 
 .list li {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.6vh;
+    font-size: 16px;
+    
+}
+
+.bordered {
+    border: 2px solid rgb(147, 197, 160);
 }
 
 .collect {
@@ -73,6 +78,31 @@ html, body {
 .headButton:hover {
     color: rgb(50, 230, 50);
     border: 2px solid rgb(50, 230, 50);
+}
+
+.bottomNav {
+    background: rgb(56, 70, 60);
+    
+}
+
+.bottomNav a {
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-size: 2.65vh;
+    display: inline-flex;
+    flex-basis: initial;
+}
+
+.bottomNav a:hover {
+    color: rgb(50, 230, 50);
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.bottomNav p {
+    color: rgb(238, 238, 238);
+    font-size: 6vh;
+    margin-bottom: -2vh;
 }
 
 #pageLead {
