@@ -57,6 +57,14 @@ html, body {
 }
 
 #pageLead {
-    background-image: url(../img/resume.jpg);
+    transition: background-image 1s ease-in-out;
     background-size: cover;
+}
+
+#pageLead.bgd-1 {
+    background-image: url('../img/portfolio.jpg');
+}
+
+#pageLead.bgd-2 {
+    background-image: url('../img/resume.jpg');
 }

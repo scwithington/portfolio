@@ -120,5 +120,6 @@ html, body {
 }
 
 #pageLead {
-    background-color: black;
+    background-image: url(../img/portfolio.jpg);
+    background-size: cover;
 }
