@@ -87,7 +87,7 @@ html, body {
 }
 
 #pageLead {
-    transition: background-image 1s ease-in-out;
+    transition: background-image 1.2s ease-in-out;
     background-size: cover;
     background-image: url('../img/resume.jpg');
 }
