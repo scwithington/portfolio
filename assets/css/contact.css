@@ -27,6 +27,11 @@ html, body {
     height: 10vh;
 }
 
+.icon:hover {
+    transition: .5s ease;
+    transform: scale(1.1);
+}
+
 .box p {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 14vh;
@@ -54,6 +59,31 @@ html, body {
     color: rgb(50, 230, 50);
     border: 2px solid rgb(50, 230, 50);
     text-decoration: none;
+}
+
+.bottomNav {
+    background: rgb(45, 54, 47);
+    
+}
+
+.bottomNav a {
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-size: 2.65vh;
+    display: inline-flex;
+    flex-basis: initial;
+}
+
+.bottomNav a:hover {
+    color: rgb(50, 230, 50);
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.bottomNav p {
+    color: rgb(238, 238, 238);
+    font-size: 6vh;
+    margin-bottom: -2vh;
 }
 
 #pageLead {

@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: rgb(238, 238, 238);
 }
 
 .collect {
@@ -28,7 +29,8 @@ html, body {
 }
 
 .icon:hover {
-    filter: hue-rotate(rgb(50, 230, 50));
+    transition: .5s ease;
+    transform: scale(1.1);
 }
 
 .box p {
@@ -108,6 +110,31 @@ html, body {
 
 .container:hover .appear {
     opacity: 1;
+}
+
+.bottomNav {
+    background: rgb(45, 54, 47);
+    
+}
+
+.bottomNav a {
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-size: 2.65vh;
+    display: inline-flex;
+    flex-basis: initial;
+}
+
+.bottomNav a:hover {
+    color: rgb(50, 230, 50);
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.bottomNav p {
+    color: rgb(238, 238, 238);
+    font-size: 6vh;
+    margin-bottom: -2vh;
 }
 
 #current {
