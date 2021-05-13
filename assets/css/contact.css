@@ -2,6 +2,11 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: rgb(238, 238, 238);
+}       
+
+hr {
+    color: black;
 }
 
 .collect {
@@ -84,6 +89,35 @@ html, body {
     color: rgb(238, 238, 238);
     font-size: 6vh;
     margin-bottom: -2vh;
+}
+
+.external div {
+    border: 2px solid rgb(97, 119, 102);
+}
+
+.external h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.external a {
+    border: 1.6px solid black;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    padding-top: 1vh;
+    padding-bottom: 1.2vh;
+    text-decoration: none;
+    color: black;
+    transition: .5s ease;
+}
+
+.external a:hover {
+    text-decoration: none;
+    color: rgb(50, 230, 50);
+    border-color: rgb(50, 230, 50);
+}
+
+.extBtn {
+    margin: 2vh;
 }
 
 #pageLead {
