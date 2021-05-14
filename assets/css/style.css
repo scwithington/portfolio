@@ -86,6 +86,46 @@ html, body {
     margin-bottom: -2vh;
 }
 
+.main {
+    background-color: rgb(245, 245, 245)
+}
+
+.titleText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5vh;
+    text-decoration: 2px underline;
+    text-underline-offset: 1vh;
+    padding-bottom: 2vh;
+}
+
+.tint {
+    background-color: rgb(97, 119, 102);
+    color: rgb(238, 238, 238);
+    padding: 5vh;
+}
+
+.tintBtn {
+    padding: 1vh 1vw;
+    font-size: 2.5vh;
+    background: none;
+    border: 2px solid rgb(238, 238, 238);
+    color: rgb(238, 238, 238);
+    transition: .5s ease;
+    /* margin-left: 13vw; */
+}
+
+.tintBtn:hover {
+    color: rgb(97, 119, 102);
+    background-color: rgb(238, 238, 238);
+    text-decoration: none;
+}
+
+.smallTitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(238, 238, 238);
+    font-size: x-large;
+}
+
 #pageLead {
     transition: background-image 1.2s ease-in-out;
     background-size: cover;
