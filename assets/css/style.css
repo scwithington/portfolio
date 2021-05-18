@@ -5,7 +5,8 @@ html, body {
 }
 
 nav {
-    margin-bottom: none;
+    padding-bottom: 3vh;
+    margin-bottom: -4vh;
 }
 
 .collect {
