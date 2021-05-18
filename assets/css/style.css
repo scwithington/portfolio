@@ -1,12 +1,7 @@
 html, body {
     margin: 0;
-    padding: 0;
+    padding: none;
     overflow-x: hidden;
-}
-
-nav {
-    padding-bottom: 3vh;
-    margin-bottom: -4vh;
 }
 
 .collect {
