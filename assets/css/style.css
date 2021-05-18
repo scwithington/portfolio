@@ -1,5 +1,5 @@
 html, body {
-    margin: 0;
+    margin: none;
     padding: none;
     overflow-x: hidden;
 }
@@ -63,7 +63,7 @@ html, body {
 
 .bottomNav {
     background: rgb(45, 54, 47);
-    
+    margin-bottom: -10vh;
 }
 
 .bottomNav a {
