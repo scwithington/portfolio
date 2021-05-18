@@ -63,7 +63,7 @@ html, body {
 
 .bottomNav {
     background: rgb(45, 54, 47);
-    margin-bottom: -10vh;
+    /* margin-bottom: -10vh; */
 }
 
 .bottomNav a {
