@@ -2,7 +2,6 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .collect {
@@ -64,7 +63,6 @@ html, body {
 
 .bottomNav {
     background: rgb(45, 54, 47);
-    /* margin-bottom: -10vh; */
 }
 
 .bottomNav a {
