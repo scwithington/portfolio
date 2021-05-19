@@ -127,7 +127,6 @@ hr {
 }
 
 #pageLead {
-    transition: background-image 1s ease-in-out;
     background-size: cover;
     background-image: url('../img/contact.jpg');
 }
