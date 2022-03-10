@@ -112,6 +112,10 @@ html, body {
     margin-bottom: -2vh;
 }
 
+#current {
+    color: rgb(50, 230, 50);
+}
+
 #pageLead {
     background-image: url(../img/resume.jpg);
     background-size: cover;

@@ -108,6 +108,10 @@ html, body {
     font-weight: 350;
 }
 
+#current {
+    color: rgb(50, 230, 50);
+}
+
 #pageLead {
     background-size: cover;
     background-image: url('../img/about.jpg');

@@ -146,6 +146,11 @@ html, body {
     background-color: rgb(238, 238, 238);
 }
 
+#artProjects {
+    padding-top: 5vh;
+    background-color: rgb(238, 238, 238);
+}
+
 #pageLead {
     background-image: url(../img/portfolio.jpg);
     background-size: cover;

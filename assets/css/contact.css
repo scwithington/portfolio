@@ -122,6 +122,10 @@ hr {
     margin: 2vh;
 }
 
+#current {
+    color:rgb(50, 230, 50); 
+}
+
 #hire {
     background: rgb(248, 248, 248);
 }
