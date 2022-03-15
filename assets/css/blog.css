@@ -18,7 +18,7 @@ html, body {
 }
 
 .collect a:hover {
-    color: rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
     transition: .5s ease;
     text-decoration: none;
 }
@@ -57,13 +57,13 @@ html, body {
 }
 
 .headButton:hover {
-    color: rgb(50, 230, 50);
-    border: 2px solid rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
+    border: 2px solid rgb(71, 233, 255);
     text-decoration: none;
 }
 
 .bottomNav {
-    background: rgb(45, 54, 47);
+    background: rgb(15, 15, 15);
     
 }
 
@@ -76,7 +76,7 @@ html, body {
 }
 
 .bottomNav a:hover {
-    color: rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
     transition: .5s ease;
     text-decoration: none;
 }
@@ -88,8 +88,8 @@ html, body {
 }
 
 .blogbox {
-    background-color: rgb(218, 233, 221);
-    color: rgb(61, 77, 65);
+    background-color: rgb(203, 204, 204);
+    color: rgb(75, 79, 80);
 }
 
 .blogbox .row p {
@@ -115,7 +115,7 @@ html, body {
 }
 
 #current {
-    color: rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
 }
 
 #pageLead {

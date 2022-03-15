@@ -17,7 +17,7 @@ html, body {
 }
 
 .collect a:hover {
-    color: rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
     transition: .5s ease;
     text-decoration: none;
 }
@@ -56,13 +56,13 @@ html, body {
 }
 
 .headButton:hover {
-    color: rgb(50, 230, 50);
-    border: 2px solid rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
+    border: 2px solid rgb(71, 233, 255);
     text-decoration: none;
 }
 
 .bottomNav {
-    background: rgb(45, 54, 47);
+    background: rgb(15, 15, 15);
     
 }
 
@@ -75,7 +75,7 @@ html, body {
 }
 
 .bottomNav a:hover {
-    color: rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
     transition: .5s ease;
     text-decoration: none;
 }
@@ -92,7 +92,7 @@ html, body {
 }
 
 .tint {
-    background-color: rgb(97, 119, 102);
+    background-color: rgb(98, 104, 105);
     color: rgb(238, 238, 238);
     padding: 5vh;
 }
@@ -109,7 +109,7 @@ html, body {
 }
 
 #current {
-    color: rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
 }
 
 #pageLead {

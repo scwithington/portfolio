@@ -22,7 +22,7 @@ hr {
 }
 
 .collect a:hover {
-    color: rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
     transition: .5s ease;
     text-decoration: none;
 }
@@ -61,13 +61,13 @@ hr {
 }
 
 .headButton:hover {
-    color: rgb(50, 230, 50);
-    border: 2px solid rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
+    border: 2px solid rgb(71, 233, 255);
     text-decoration: none;
 }
 
 .bottomNav {
-    background: rgb(45, 54, 47);
+    background: rgb(15, 15, 15);
     
 }
 
@@ -80,7 +80,7 @@ hr {
 }
 
 .bottomNav a:hover {
-    color: rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
     transition: .5s ease;
     text-decoration: none;
 }
@@ -92,9 +92,9 @@ hr {
 }
 
 .external div {
-    border: 2px solid rgb(118, 139, 123);
-    background-color: rgb(245, 250, 246);
-    color: rgb(97, 119, 102);
+    border: 2px solid rgb(75, 79, 80);
+    background-color: rgb(222, 224, 224);
+    color: rgb(75, 79, 80);
 }
 
 .external h4 {
@@ -102,20 +102,21 @@ hr {
 }
 
 .external a {
-    border: 1.6px solid rgb(97, 119, 102);
+    border: 1.6px solid rgb(75, 79, 80);
     padding-left: 1.5vh;
     padding-right: 1.5vh;
     padding-top: 1vh;
     padding-bottom: 1.2vh;
     text-decoration: none;
     transition: .5s ease;
-    color: rgb(97, 119, 102);
+    color: rgb(75, 79, 80);
 }
 
 .external a:hover {
     text-decoration: none;
-    color: rgb(50, 230, 50);
-    border-color: rgb(50, 230, 50);
+    background-color: rgb(75, 79, 80);
+    color: rgb(222, 224, 224);
+    border-color: rgb(75, 79, 80);
 }
 
 .extBtn {
@@ -123,7 +124,7 @@ hr {
 }
 
 #current {
-    color:rgb(50, 230, 50); 
+    color:rgb(71, 233, 255); 
 }
 
 #hire {

@@ -23,7 +23,7 @@ html, body {
 }
 
 .collect a:hover {
-    color: rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
     transition: .5s ease;
     text-decoration: none;
 }
@@ -118,7 +118,7 @@ html, body {
 }
 
 .bottomNav {
-    background: rgb(45, 54, 47);
+    background: rgb(15, 15, 15);
     
 }
 
@@ -131,7 +131,7 @@ html, body {
 }
 
 .bottomNav a:hover {
-    color: rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
     transition: .5s ease;
     text-decoration: none;
 }
@@ -158,10 +158,10 @@ html, body {
     display: none;
     background-color: grey;
     padding: 1vh;
-}
+} 
 
 #current {
-    color: rgb(50, 230, 50);
+    color: rgb(71, 233, 255);
 }
 
 #projects {
