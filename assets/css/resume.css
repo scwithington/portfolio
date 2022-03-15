@@ -5,6 +5,16 @@ html, body {
     background-color: rgb(238, 238, 238);
 }
 
+body {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
 .row {
     padding-top: 15vh;
 }

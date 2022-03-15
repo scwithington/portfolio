@@ -87,6 +87,16 @@ html, body {
     margin-bottom: -2vh;
 }
 
+body {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
 .blogbox {
     background-color: rgb(203, 204, 204);
     color: rgb(75, 79, 80);
