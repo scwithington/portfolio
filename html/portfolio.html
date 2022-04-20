@@ -106,7 +106,7 @@
                 <div class='appear'>
                     <p class='defined'>Torn Paper</p>
                     <p class='title'>SELF PORTRAIT</p>
-                    <a type='button' class='viewBtn' target='_blank'>EXPAND</a>
+                    <button type='button' class='viewBtn expandBtn' target='_blank' onclick="expand()">EXPAND</button>
                 </div>
             </div>
             <div class='container d-flex col-sm-4 mb-5 align-items-center'>
@@ -156,6 +156,10 @@
     
     function hide() {
         document.getElementById('toggledImageTab')
+    };
+
+    function expand() { 
+        document.getElementById('toggledImageTab').style.display = 'all';
     };
 </script>
 </html>
