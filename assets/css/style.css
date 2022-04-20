@@ -142,18 +142,21 @@ body::-webkit-scrollbar {
 }
 
 #pageLead.bgd-1 {
-    transition:background-image 1s ease-in-out;
+    transition:background-image 1.2s ease-in-out;
     background-image: url('../img/about.jpg');
 }
 
 #pageLead.bgd-2 {
+    transition:background-image 1.2s ease-in-out;
     background-image: url('../img/portfolio.jpg');
 }
 
 #pageLead.bgd-3 {
+    transition:background-image 1.2s ease-in-out;
     background-image: url('../img/blog.jpg');
 }
 
 #pageLead.bgd-4 {
+    transition:background-image 1.2s ease-in-out;
     background-image: url('../img/resume.jpg');
 }
