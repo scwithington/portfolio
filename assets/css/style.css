@@ -14,6 +14,10 @@ body::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
 }
 
+.background {
+    background-color: rgb(238, 238, 238);
+}
+
 .collect {
     margin-top: -2.7vh;
 }
@@ -79,8 +83,8 @@ body::-webkit-scrollbar {
     margin-bottom: -2vh;
 }
 
-.main {
-    background-color: rgb(245, 245, 245)
+.mainbox {
+    background-color: rgb(245, 245, 245);
 }
 
 .titleText {
@@ -108,7 +112,8 @@ body::-webkit-scrollbar {
 }
 
 .tint {
-    background-color: rgb(98, 104, 105);
+    border-radius: 5vh;
+    background-image: linear-gradient(to bottom right, rgb(141, 144, 145), rgb(123, 124, 125), rgb(169, 173, 173), rgb(135, 139, 139), rgb(191, 191, 195), rgb(98, 104, 105));
     color: rgb(238, 238, 238);
     padding: 5vh;
 }
