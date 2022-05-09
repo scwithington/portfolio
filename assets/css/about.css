@@ -121,6 +121,10 @@ body::-webkit-scrollbar {
     margin: 1vh solid rgb(75, 79, 80);
 }
 
+#body {
+    size: 100vw;
+}
+
 #current {
     color: rgb(71, 233, 255);
 }
