@@ -15,7 +15,7 @@ body::-webkit-scrollbar {
 }
 
 .background {
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(218, 218, 218);
 }
 
 .collect {
@@ -84,6 +84,7 @@ body::-webkit-scrollbar {
 
 .mainbox {
     background-color: rgb(245, 245, 245);
+    padding-bottom: 10vh;
 }
 
 .titleText {
