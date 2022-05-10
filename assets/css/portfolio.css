@@ -169,7 +169,7 @@ body::-webkit-scrollbar {
     padding: 1vh;
 } 
 
-#current {
+#current { 
     color: rgb(71, 233, 255);
 }
 

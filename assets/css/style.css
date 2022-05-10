@@ -46,10 +46,9 @@ body::-webkit-scrollbar {
     transform: scale(1.1);
 }
 
-.box p {
+.leadText {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 14vh;
-    margin-bottom: -8vh;
+    font-size: 7vw;
     margin-left: 10vh;
     color: rgb(238, 238, 238);
 }
@@ -96,7 +95,7 @@ body::-webkit-scrollbar {
 }
 
 .headButton {
-    margin: 10vh 0 0 10vh;
+    margin-left: 5.3vw;
     padding: 1vh 1vw;
     font-size: 4vh;
     background: none;
