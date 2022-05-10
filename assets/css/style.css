@@ -119,7 +119,7 @@ body::-webkit-scrollbar {
 
 .tintBtn {
     padding: 1vh 1vw;
-    font-size: 1vw;
+    font-size: 2.5vh;
     background: none;
     border: 2px solid rgb(238, 238, 238);
     color: rgb(238, 238, 238);
