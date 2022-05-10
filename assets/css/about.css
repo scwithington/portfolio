@@ -97,7 +97,7 @@ body::-webkit-scrollbar {
 
 .img {
     padding: 4vh;
-    height: 70vh;
+    width: 50vh;
 }
 
 .tint {
