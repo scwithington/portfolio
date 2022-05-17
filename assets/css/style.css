@@ -62,8 +62,12 @@ nav {
 }
 
 .box {
-    padding-top: 15vh;
+    padding-top: 14vh;
     padding-bottom: 32vh;
+}
+
+.buttons {
+    margin-top: 6vh;
 }
 
 .bottomNav {
