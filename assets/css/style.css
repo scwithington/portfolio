@@ -57,6 +57,10 @@ nav {
     color: rgb(238, 238, 238);
 }
 
+.leadBtm {
+    margin-top: -10vh;
+}
+
 .box {
     padding-top: 15vh;
     padding-bottom: 32vh;
