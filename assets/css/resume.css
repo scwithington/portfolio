@@ -68,23 +68,26 @@ body::-webkit-scrollbar {
     transform: scale(1.1);
 }
 
-.box p {
+.leadText {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 14vh;
-    margin-bottom: -8vh;
+    font-size: 7vw;
     margin-left: 10vh;
     color: rgb(238, 238, 238);
 }
 
 .box {
-    padding-top: 15vh;
-    padding-bottom: 48vh;
+    padding-top: 14vh;
+    padding-bottom: 49vh;
+}
+
+.buttons {
+    margin-top: 3vh;
 }
 
 .headButton {
-    margin: 10vh 0 0 10vh;
-    padding: 1vh 1vw 1.2vh;
-    font-size: 2vw;
+    margin-left: 5.2vw;
+    padding: 1vh 1vw;
+    font-size: 4.5vh;
     background: none;
     border: 2px solid rgb(238, 238, 238);
     color: rgb(238, 238, 238);
