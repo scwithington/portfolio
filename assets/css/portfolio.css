@@ -39,8 +39,8 @@ body::-webkit-scrollbar {
 }
 
 .icon {
-    width: 10vh;
-    height: 10vh;
+    width: 11vh;
+    height: 11vh;
 }
 
 .icon:hover {
@@ -48,17 +48,21 @@ body::-webkit-scrollbar {
     transform: scale(1.1);
 }
 
-.box p {
+.box {
+    padding-top: 14vh;
+    padding-bottom: 48vh;
+    max-height:90vh;
+}
+
+.leadText {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 14vh;
-    margin-bottom: -8vh;
     margin-left: 10vh;
     color: rgb(238, 238, 238);
 }
 
-.box {
-    padding-top: 15vh;
-    padding-bottom: 48vh;
+.leadBtm {
+    margin-top: -8vh;
 }
 
 .container {

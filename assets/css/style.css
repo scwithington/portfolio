@@ -68,7 +68,8 @@ nav {
 
 .box {
     padding-top: 14vh;
-    padding-bottom: 32vh;
+    padding-bottom: 34vh;
+    max-height: 90vh;
 }
 
 .buttons {
