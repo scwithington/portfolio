@@ -57,7 +57,7 @@ nav {
 
 .leadText {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 6.5vw;
+    font-size: 14vh;
     margin-left: 10vh;
     color: rgb(238, 238, 238);
 }
@@ -67,7 +67,7 @@ nav {
 }
 
 .box {
-    padding-top: 13vh;
+    padding-top: 14vh;
     padding-bottom: 32vh;
 }
 
