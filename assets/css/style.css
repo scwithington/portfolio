@@ -40,7 +40,7 @@ nav {
 }
 
 .collect a:hover {
-    color: rgb(71, 233, 255);
+    color: rgb(102, 255, 255);
     transition: .5s ease;
     text-decoration: none;
 }
@@ -51,6 +51,7 @@ nav {
 }
 
 .icon:hover {
+    filter: brightness(90%) sepia(100) saturate(50) hue-rotate(150deg);
     transition: .5s ease;
     transform: scale(1.1);
 }
@@ -89,7 +90,7 @@ nav {
 }
 
 .bottomNav a:hover {
-    color: rgb(71, 233, 255);
+    color: rgb(102, 255, 255);
     transition: .5s ease;
     text-decoration: none;
 }
@@ -126,21 +127,21 @@ nav {
 }
 
 .headButton:hover {
-    color: rgb(71, 233, 255);
+    color: rgb(102, 255, 255);
     border: 2px solid rgb(117, 227, 241);
     text-decoration: none;
 }
 
 .tint {
     border-radius: 5vh;
-    background-image: linear-gradient(to bottom right, rgb(141, 144, 145), rgb(123, 124, 125), rgb(169, 173, 173), rgb(135, 139, 139), rgb(191, 191, 195), rgb(98, 104, 105));
+    background-image: linear-gradient(to bottom right, rgb(141, 144, 145), rgb(123, 124, 125), rgb(163, 165, 165), rgb(135, 139, 139), rgb(142, 142, 142), rgb(98, 104, 105));
     color: rgb(238, 238, 238);
     padding: 5vh;
 }
 
 .tintBtn {
     padding: 1vh 1vw;
-    font-size: 2vh;
+    font-size: 2.5vh;
     background: none;
     border: 2px solid rgb(238, 238, 238);
     color: rgb(238, 238, 238);

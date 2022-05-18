@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
 }
 
 .collect a:hover {
-    color: rgb(71, 233, 255);
+    color: rgb(102, 255, 255);
     transition: .5s ease;
     text-decoration: none;
 }
@@ -144,7 +144,7 @@ body::-webkit-scrollbar {
 }
 
 .bottomNav a:hover {
-    color: rgb(71, 233, 255);
+    color: rgb(102, 255, 255);
     transition: .5s ease;
     text-decoration: none;
 }
@@ -174,7 +174,7 @@ body::-webkit-scrollbar {
 } 
 
 #current { 
-    color: rgb(71, 233, 255);
+    color: rgb(102, 255, 255);
 }
 
 #projects {
