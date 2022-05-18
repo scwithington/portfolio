@@ -18,6 +18,11 @@ nav {
     width: 100vw;
 }
 
+.iconBox {
+    display: flex;
+    justify-content: center;
+}
+
 .background {
     background-color: rgb(245, 245, 245);
 }
@@ -41,8 +46,8 @@ nav {
 }
 
 .icon {
-    width: 10vh;
-    height: 10vh;
+    width: 11vh;
+    height: 11vh;
 }
 
 .icon:hover {
@@ -52,7 +57,7 @@ nav {
 
 .leadText {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 7vw;
+    font-size: 6.5vw;
     margin-left: 10vh;
     color: rgb(238, 238, 238);
 }
@@ -62,7 +67,7 @@ nav {
 }
 
 .box {
-    padding-top: 14vh;
+    padding-top: 13vh;
     padding-bottom: 32vh;
 }
 
