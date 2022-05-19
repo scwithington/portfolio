@@ -30,7 +30,7 @@ html, body {
 
 .icon:hover {
     transition: .5s ease;
-    transform: scale(1.1);
+    transform: scale(1.075);
 }
 
 .box p {

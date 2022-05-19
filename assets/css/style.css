@@ -18,11 +18,6 @@ nav {
     width: 100vw;
 }
 
-.iconBox {
-    display: flex;
-    justify-content: center;
-}
-
 .background {
     background-color: rgb(245, 245, 245);
 }
@@ -45,15 +40,20 @@ nav {
     text-decoration: none;
 }
 
+/* .iconBox {
+    display: flex;
+    justify-content: center;
+} */
+
 .icon {
     width: 11vh;
     height: 11vh;
+    transition: .5s ease;
 }
 
 .icon:hover {
     filter: brightness(90%) sepia(100) saturate(50) hue-rotate(150deg);
-    transition: .5s ease;
-    transform: scale(1.1);
+    transform: scale(1.075);
 }
 
 .leadText {
@@ -133,8 +133,8 @@ nav {
 }
 
 .tint {
-    border-radius: 5vh;
-    background-image: linear-gradient(to bottom right, rgb(141, 144, 145), rgb(123, 124, 125), rgb(163, 165, 165), rgb(135, 139, 139), rgb(142, 142, 142), rgb(98, 104, 105));
+    border-radius: 1vh;
+    background-image: linear-gradient(to bottom, rgb(186 188 189), rgb(180, 180, 181), rgb(163, 165, 165), rgb(140, 140, 145), rgb(115, 115, 120));
     color: rgb(238, 238, 238);
     padding: 5vh;
 }
