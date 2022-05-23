@@ -96,12 +96,72 @@ body::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
 }
 
-.blogbox {
+/* .blogbox {
     background-color: rgb(203, 204, 204);
     color: rgb(75, 79, 80);
 }
 
 .blogbox .row p {
+    font-family: 'cursive';
+    font-style: italic;
+} */
+
+.blogbox4 {
+    background-color: rgb(227, 208, 184);
+    color: rgb(110, 88, 55);
+}
+
+.blogbox4 .row p {
+    font-family: 'cursive';
+    font-style: italic;
+}
+
+.blogbox {
+    background-color: rgb(198, 215, 235);
+    color: rgb(42, 70, 104);
+}
+
+.blogbox .row p {
+    font-family: 'cursive';
+    font-style: italic;
+}
+
+.blogbox2 {
+    background-color: rgb(209, 235, 213);
+    color: rgb(54, 96, 54);
+}
+
+.blogbox2 .row p {
+    font-family: 'cursive';
+    font-style: italic;
+}
+
+.blogbox3 {
+    background-color: rgb(234, 235, 198);
+    color: rgb(100, 101, 68);
+}
+
+.blogbox3 .row p {
+    font-family: 'cursive';
+    font-style: italic;
+}
+
+.blogbox5 {
+    background-color: rgb(235, 201, 198);
+    color: rgb(101, 72, 68);
+}
+
+.blogbox5 .row p {
+    font-family: 'cursive';
+    font-style: italic;
+}
+
+.blogbox6 {
+    background-color: rgb(229, 208, 230);
+    color: rgb(101, 68, 97);
+}
+
+.blogbox6 .row p {
     font-family: 'cursive';
     font-style: italic;
 }
